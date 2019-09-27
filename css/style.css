@@ -77,3 +77,68 @@ body {
     width: auto;
     height: auto;
 }
+
+/* Sessão Descricao */
+
+.descricao {
+    text-align: center;
+    padding: 30px 12px 5px 12px;
+    color: #737373;
+    line-height: 25px;
+}
+
+/* Sessão Servicos */
+
+.servicos {
+    text-align: center;
+    padding: 5px 12px;
+    margin: 0;
+}
+
+.servicos p {
+    color: #737373;
+    line-height: 25px;
+}
+
+.servicos-titulo {
+    color: #2571B7;
+    margin: 0;
+}
+
+.servicos__artigos {
+    color: #fff;
+}
+
+.servicos-item {
+    margin: 15px 0;
+}
+
+.servicos-item img {
+    float: left;
+    padding: 55px 20px;
+}
+
+.servicos-item p {
+    color: #fff;
+    text-align: left;
+    padding: 10px 10px 20px 10px;
+    margin: 0;
+}
+
+.servicos-item h2 {
+    margin: 0;
+    padding-top: 20px;
+    text-align: left;
+}
+
+.servicos-item1 {
+    background-color:#0072C6;
+}
+
+.servicos-item2 {
+    background-color:#207245;
+}
+
+.servicos-item3 {
+    background-color:#CB4A32;
+}
