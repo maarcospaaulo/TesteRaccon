@@ -37,7 +37,7 @@ body {
 }
 
 .cabecalho {
-    background-image: url(../img/ballpen-blur-close-up.png);
+    background-image: url(../img/ballpen-blur-close-up.jpg);
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -125,7 +125,7 @@ body {
         margin-top: 20px;
     }
 }
-/*se tela menor que 350px diminui a borda de cima*/
+/*se tela menor que 350px aumenta a borda de cima e baixo*/
 @media only screen and (max-width: 350px) {
     .servicos-item img  {
         margin-top: 50px;
