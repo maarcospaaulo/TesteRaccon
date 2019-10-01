@@ -26,6 +26,95 @@ body {
 .cabecalho-menu {
     background-color: #2571B7;
     padding: 10px 15px;
+    width: 100%;
+    height: 50px;
+}
+
+.menu ul {
+    list-style: none;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li {
+    width: 150px;
+    float: left;
+}
+
+.menu a {
+    padding: 5px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    background-color: #2571B7;
+    color: #fff;
+}
+
+/* ao passar o mouse no link */
+.menu a:hover {
+    background-color: #002050;
+    color: #fff;
+}
+
+/* submenu oculto */
+.menu ul ul {
+    position: absolute;
+    visibility: hidden;
+}
+
+/* ao passar o mouse no item do menu, abre o submenu (fica visivel)*/
+.menu ul li:hover ul {
+    visibility: visible;
+}
+
+.menu ul ul li {
+    float: none;
+    border-bottom: solid 1px #fff;
+}
+.menu ul ul li a {
+    background-color: #fff;
+    color: #002050;
+}
+
+/* botao menu responsivo */
+label[for="btn_menu"] {
+    padding: 5px;
+    background-color: #2571B7;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    display: none;
+}
+
+#btn_menu {
+    display: none;
+}
+
+@media only screen and (max-width: 800px) {
+    
+    label[for="btn_menu"] {
+        display: block;
+    }
+    .menu ul li {
+        width: 100%;
+        float: none;
+    }
+
+    .menu ul ul {
+        position: static;
+        overflow: hidden;
+        max-height: 0;
+        transition: all .4s;
+    }
+
+    .menu ul li:hover ul {
+        height: auto;
+        max-height: 200px;
+    }
 }
 
 .cabecalho-btn {
@@ -33,7 +122,7 @@ body {
     border: none;
     color: #fff;
     background-color: #002050;
-    padding: 5px 8px;
+    padding: 8px 8px;
 }
 
 .cabecalho {
@@ -121,13 +210,13 @@ body {
 }
 /*se tela maior que 600px diminui a borda de cima*/
 @media only screen and (min-width: 600px) {
-    .servicos-item img  {
+    .servicos-item img {
         margin-top: 20px;
     }
 }
 /*se tela menor que 350px aumenta a borda de cima e baixo*/
 @media only screen and (max-width: 350px) {
-    .servicos-item img  {
+    .servicos-item img {
         margin-top: 50px;
         margin-bottom: 50px;
     }
