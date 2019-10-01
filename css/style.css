@@ -115,9 +115,22 @@ body {
 
 .servicos-item img {
     float: left;
-    margin-top: 30px;
+    margin-top: 35px;
     margin-bottom: 25px;
     padding: 15px;
+}
+/*se tela maior que 600px diminui a borda de cima*/
+@media only screen and (min-width: 600px) {
+    .servicos-item img  {
+        margin-top: 20px;
+    }
+}
+/*se tela menor que 350px diminui a borda de cima*/
+@media only screen and (max-width: 350px) {
+    .servicos-item img  {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
 }
 
 .servicos-item p {
