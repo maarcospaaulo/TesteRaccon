@@ -202,19 +202,23 @@ label[for="btn_menu"] {
 /* Sessão Servicos */
 
 .servicos {
-    text-align: center;
     padding: 5px 12px;
     margin: 0;
 }
 
 .servicos p {
+    text-align: center;
+}
+
+p {
     color: #737373;
     line-height: 25px;
 }
 
-.servicos-titulo {
+.sessao-titulo {
     color: #2571B7;
     margin: 0;
+    text-align: center;
 }
 
 .servicos__artigos {
@@ -268,4 +272,64 @@ label[for="btn_menu"] {
 
 .servicos-item3 {
     background-color:#CB4A32;
+}
+
+/* Sessao Regras */
+
+.regras {
+    padding: 0 12px;
+}
+
+.regras__item {
+    border-bottom: 3px solid #DEDEDE;
+    padding: 0 10px 20px 10px;
+}
+
+.regras button {
+    height: 35px;
+    width: 100px;
+    background-color: #fff;
+    padding: 8px;
+    border: solid 2px #00A4EF;
+    color: #00A4EF;
+}
+
+.circulo {
+    background-color: #00A4EF;
+    border-radius: 100%;
+    width: 90px;
+    height: 90px;
+    overflow: hidden;
+    position: relative;
+    float: right;
+    margin: 50px 10px 20px 25px;
+}
+
+.circulo img {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    top:50%;
+    left:50%;
+    margin-top:-22px;
+    margin-left:-23px;
+}
+
+.regras__item-titulo {
+    color: #64605F;
+}
+/*se tela maior que 600px */
+@media only screen and (min-width: 600px) {
+
+    .circulo {
+        margin: 20px 10px 20px 25px;
+    }
+}
+
+/*se tela menor que 400px */
+@media only screen and (max-width: 400px) {
+
+    .circulo {
+        margin: 100px 10px 30px 25px;
+    }
 }
