@@ -375,7 +375,7 @@ p {
 /* sessao formulario */
 
 .form {
-    padding: 15px;
+    padding: 15px 15px 50px 15px;
 }
 .form p {
     text-align: center;
@@ -426,8 +426,7 @@ p {
 }
 
 .rodape__logo {
-    margin-top: 20px;
-    margin-bottom: 15px;
+    display: inline;
 }
 
 .rodape__info {
@@ -436,4 +435,5 @@ p {
     width: 100%;
     margin: 0;
     padding: 5px;
+    margin-top: 15px;
 }
