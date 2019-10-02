@@ -372,3 +372,49 @@ p {
     color: #fff;
 }
 
+/* sessao formulario */
+
+.form {
+    padding: 15px;
+}
+.form p {
+    text-align: center;
+    padding: 15px;
+}
+
+.formulario{
+    background-color: #efecec;
+    margin-left: -15px;
+    margin-right: -15px;
+    padding: 25px 15px 25px 15px;
+    box-shadow: 1px 2px 5px #9c9696;
+}
+
+.formulario__grupo{
+    margin-bottom: 15px;
+}
+
+.formulario__label{
+    color: #64605F;
+}
+
+.formulario__campo{
+    width: 100%;
+    border: 1px solid #c4c4c4;
+    border-radius: 5px;
+    padding: 10px 5px;
+    margin-top: 5px;
+}
+
+.formulario__botao{
+    border: none;
+    color: #fff;
+    background-color: #00A4EF;
+    padding: 10px 15px;
+    width: 150px;
+    height: 40px;
+    font-size: 16px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
