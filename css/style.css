@@ -219,6 +219,7 @@ p {
     color: #2571B7;
     margin: 0;
     text-align: center;
+    padding-bottom: 15px;
 }
 
 .servicos__artigos {
@@ -332,4 +333,22 @@ p {
     .circulo {
         margin: 100px 10px 30px 25px;
     }
+}
+
+/* sessao pacotes */
+
+.pacotes {
+    text-align: center;
+    padding: 15px;
+}
+
+.pacotes__item {
+    border: 2px solid #DEDEDE;
+    margin: 0;
+    padding: 0 20px;
+}
+
+.pacotes__item h2 {
+    color: #F25022;
+    font-size: 18px;
 }
