@@ -418,3 +418,22 @@ p {
     display: block;
     margin: 0 auto;
 }
+
+/* rodape */ 
+
+.rodape {
+    text-align: center;
+}
+
+.rodape__logo {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.rodape__info {
+    background-color: #003467;
+    color: #fff;
+    width: 100%;
+    margin: 0;
+    padding: 5px;
+}
