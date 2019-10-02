@@ -42,8 +42,9 @@ body {
 }
 
 .menu ul li {
-    width: 100px;
-    float: left;
+    width: 120px;
+    float: right;
+    margin-top: 8px;
 }
 
 .menu a {
@@ -74,7 +75,8 @@ body {
 
 .menu ul ul li {
     float: none;
-    border-bottom: solid 1px #fff;
+    border-bottom: solid 1px #00A4EF;
+    margin: 0;
 }
 .menu ul ul li a {
     background-color: #fff;
@@ -112,37 +114,38 @@ label[for="btn_menu"] {
 
     .menu {
         margin-left: -100%;
-        transition: all .4s;
+        transition: all .5s;
     }
 
     .menu ul li {
         width: 100%;
         float: none;
+        margin-top: 0;
     }
 
     .menu ul ul {
         position: static;
         overflow: hidden;
         max-height: 0;
-        transition: all .4s;
+        transition: all .5s;
     }
 
     .menu ul li:hover ul {
         height: auto;
         max-height: 300px;
     }
-
-    /*.cabecalho-menu {
-        height: 60px;
-    } */
 }
 
 .cabecalho-btn {
     float: right;
     border: none;
+    margin: 8px;
     color: #fff;
     background-color: #002050;
-    padding: 8px 8px;
+    padding: 8px;
+    font-size: 16px;
+    height: 35px;
+    width: 140px;
 }
 
 .cabecalho {
