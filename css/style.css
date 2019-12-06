@@ -210,6 +210,10 @@ label[for="btn_menu"] {
     margin: 0;
 }
 
+#servicos__desktop {
+    display: none;
+}
+
 .servicos p {
     text-align: center;
 }
@@ -230,11 +234,11 @@ p {
     color: #fff;
 }
 
-.servicos-item {
+.servicos__item {
     margin: 25px 0;
 }
 
-.servicos-item img {
+.servicos__item img {
     float: left;
     margin-top: 35px;
     margin-bottom: 25px;
@@ -242,41 +246,69 @@ p {
 }
 /*se tela maior que 600px diminui a borda de cima*/
 @media only screen and (min-width: 600px) {
-    .servicos-item img {
+    .servicos__item img {
         margin-top: 20px;
     }
 }
 /*se tela menor que 350px aumenta a borda de cima e baixo*/
 @media only screen and (max-width: 350px) {
-    .servicos-item img {
+    .servicos__item img {
         margin-top: 50px;
         margin-bottom: 50px;
     }
 }
 
-.servicos-item p {
+.servicos__item p {
     color: #fff;
     text-align: left;
     padding: 10px 10px 35px 10px;
     margin: 0;
 }
 
-.servicos-item h2 {
+.servicos__item h2 {
     margin: 0;
     padding-top: 20px;
     text-align: left;
 }
 
-.servicos-item1 {
+.servicos__item1 {
     background-color:#0072C6;
 }
 
-.servicos-item2 {
+.servicos__item2 {
+    background-color:#2C5898;
+}
+
+.servicos__item3 {
     background-color:#207245;
 }
 
-.servicos-item3 {
+.servicos__item4 {
     background-color:#CB4A32;
+}
+
+.servicos__item5 {
+    background-color:#733781;
+}
+
+.servicos__item6 {
+    background-color:#00AFF0;
+}
+
+.servicos__item7 {
+    background-color:#094AB2;
+}
+
+.servicos__item8 {
+    background-color:#0073C6;
+}
+
+.servicos__item9 {
+    background-color:#0093BE;
+}
+
+.servicos__item10 {
+    background-color:#5558AF;
 }
 
 /* Sessao Regras */
@@ -328,6 +360,28 @@ p {
 
     .circulo {
         margin: 20px 10px 20px 25px;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+
+    .servicos {
+        padding: 0;
+        margin: 40px;
+    }
+
+    .servicos__artigos {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .servicos__item {
+        margin: 15px 20px;
+    }
+
+    /* exibe as caixas para desktop */
+    #servicos__desktop {
+        display: grid;
     }
 }
 
