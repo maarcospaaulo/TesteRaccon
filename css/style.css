@@ -248,11 +248,11 @@ p {
 /*se tela maior que 600px diminui a borda de cima*/
 @media only screen and (min-width: 600px) {
     .servicos__item img {
-        margin-top: 20px;
+        margin-top: 30px;
     }
 }
 /*se tela menor que 350px aumenta a borda de cima e baixo*/
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 360px) {
     .servicos__item img {
         margin-top: 50px;
         margin-bottom: 50px;
@@ -328,9 +328,19 @@ p {
         margin: 15px 20px;
     }
 
+    .servicos__item img {
+        margin-top: 50px;
+    }
+
     /* exibe as 4 caixas a mais para desktop */
     #servicos__desktop {
         display: grid;
+    }
+}
+
+@media only screen and (min-width: 940px) {
+    .servicos__item img {
+        margin-top: 25px;
     }
 }
 
@@ -511,7 +521,7 @@ p {
 .text p {
     margin: 0;
     text-align: center;
-    padding: 40px 200px 20px 200px;
+    padding: 40px 20% 20px 20%;
 }
 
 /* sessao formulario */
@@ -565,7 +575,7 @@ p {
 @media only screen and (min-width: 800px) {
     
     .form {
-        padding: 15px 450px 50px 450px;
+        padding: 15px 35% 50px 35%;
     }
 
     .form p {
