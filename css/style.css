@@ -244,13 +244,13 @@ p {
     margin-bottom: 25px;
     padding: 15px;
 }
-/*se tela maior que 600px diminui a borda de cima*/
-@media only screen and (min-width: 600px) {
+/*se tela maior que 547px*/
+@media only screen and (min-width: 547px) {
     .servicos__item img {
-        margin-top: 20px;
+        margin: 20px 0 20px 0;;
     }
 }
-/*se tela menor que 350px aumenta a borda de cima e baixo*/
+/*se tela menor que 350px*/
 @media only screen and (max-width: 350px) {
     .servicos__item img {
         margin-top: 50px;
@@ -261,7 +261,7 @@ p {
 .servicos__item p {
     color: #fff;
     text-align: left;
-    padding: 10px 10px 35px 10px;
+    padding: 10px 10px 20px 10px;
     margin: 0;
 }
 
@@ -379,7 +379,7 @@ p {
         margin: 15px 20px;
     }
 
-    /* exibe as caixas para desktop */
+    /* exibe as 4 caixas a mais para desktop */
     #servicos__desktop {
         display: grid;
     }
