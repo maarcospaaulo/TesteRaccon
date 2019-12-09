@@ -415,31 +415,6 @@ p {
     }
 }
 
-<<<<<<< HEAD
-=======
-@media only screen and (min-width: 800px) {
-
-    .servicos {
-        padding: 0;
-        margin: 40px;
-    }
-
-    .servicos__artigos {
-        display: grid;
-        grid-template-columns: auto auto;
-    }
-
-    .servicos__item {
-        margin: 15px 20px;
-    }
-
-    /* exibe as caixas para desktop */
-    #servicos__desktop {
-        display: grid;
-    }
-}
-
->>>>>>> parent of 0f81121... Caixas servicos responsiva 10/6
 /*se tela menor que 400px */
 @media only screen and (max-width: 400px) {
 
