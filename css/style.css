@@ -463,6 +463,25 @@ p {
     font-size: 18px;
 }
 
+@media only screen and (min-width: 800px) {
+
+    .pacotes {
+        padding: 0;
+        margin: 40px;
+        text-align: center;
+    }
+
+    .pacotes__artigos {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
+
+    .pacotes__item {
+        margin: 0;
+        padding: 20px;
+    }
+}
+
 /* sessao valores */ 
 
 .valores {
@@ -480,15 +499,25 @@ p {
     color: #fff;
 }
 
+@media only screen and (min-width: 800px) {
+    
+    .valores p {
+        padding: 80px;
+    }
+}
+
+/* Sessao Text */
+
+.text p {
+    margin: 0;
+    text-align: center;
+    padding: 40px 200px 20px 200px;
+}
+
 /* sessao formulario */
 
 .form {
     padding: 15px 20px 50px 20px;
-}
-.form p {
-    margin: 0;
-    text-align: center;
-    padding: 40px 45px 20px 45px;
 }
 
 .formulario{
@@ -531,6 +560,17 @@ p {
     cursor: pointer;
     display: block;
     margin: 0 auto;
+}
+
+@media only screen and (min-width: 800px) {
+    
+    .form {
+        padding: 15px 450px 50px 450px;
+    }
+
+    .form p {
+        padding: 10px;
+    }
 }
 
 /* rodape */ 
