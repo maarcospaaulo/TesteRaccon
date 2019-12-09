@@ -406,12 +406,29 @@ p {
     margin-top:-22px;
     margin-left:-23px;
 }
+@media only screen and (min-width: 800px) {
 
-/*se tela maior que 600px */
-@media only screen and (min-width: 600px) {
+    .regras {
+        padding: 0;
+        margin: 40px;
+        text-align: center;
+    }
+
+    .regras__artigos {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+
+    .regras__item {
+        margin: 15px 20px;
+        border: 0;
+    }
 
     .circulo {
-        margin: 20px 10px 20px 25px;
+        float: none;
+        margin: 0;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
