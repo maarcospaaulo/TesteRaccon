@@ -153,8 +153,8 @@ label[for="btn_menu"] {
     background-image: url(../img/ballpen-blur-close-up.jpg);
     background-position: center;
     background-size: cover;
-    text-align: center;
     color: #fff;
+    text-align: center;
 }
 
 .frente--escurecer {
@@ -174,14 +174,16 @@ label[for="btn_menu"] {
     font-size: 22px;
     color: #fff;
 }
+
 .cabecalho button {
     border: none;
     color: #fff;
     background-color: #00A4EF;
     padding: 10px 15px;
-    width: 150px;
-    height: 40px;
+    width: auto;
+    height: auto;
     font-size: 16px;
+    cursor: pointer;
 }
 
 .cabecalho img {
@@ -193,6 +195,26 @@ label[for="btn_menu"] {
     max-width: 100px;
     width: auto;
     height: auto;
+}
+
+@media only screen and (min-width: 800px) {
+    
+    .cabecalho h1 {
+        font-size: 50px;
+        text-align: left;
+        margin-left: 100px;
+    }
+
+    .cabecalho p {
+        text-align: left;
+        margin-left: 100px;
+    }
+
+    .cabecalho button {
+        font-size: 20px;
+        display: block;
+        margin-left: 100px;
+    }
 }
 
 /* Sessão Descricao */
@@ -231,6 +253,13 @@ p {
     padding-bottom: 15px;
 }
 
+@media only screen and (min-width: 800px) {
+    
+    .sessao-titulo {
+        font-size: 36px;
+    }
+}
+
 .servicos__artigos {
     color: #fff;
 }
@@ -245,13 +274,13 @@ p {
     margin-bottom: 25px;
     padding: 15px;
 }
-/*se tela maior que 600px diminui a borda de cima*/
+
 @media only screen and (min-width: 600px) {
     .servicos__item img {
         margin-top: 30px;
     }
 }
-/*se tela menor que 350px aumenta a borda de cima e baixo*/
+
 @media only screen and (max-width: 360px) {
     .servicos__item img {
         margin-top: 50px;
