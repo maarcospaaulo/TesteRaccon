@@ -227,7 +227,6 @@ label[for="btn_menu"] {
     text-align: center;
     padding: 30px 12px 5px 12px;
     color: #737373;
-    line-height: 25px;
 }
 
 /* Sessão Servicos */
@@ -579,7 +578,6 @@ p {
 
 .formulario__campo{
     width: 100%;
-    /*border: 1px solid #c4c4c4;*/
     border: 0;
     border-radius: 5px;
     padding: 10px 5px;
