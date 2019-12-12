@@ -1,0 +1,19 @@
+/* rodape */ 
+
+.rodape {
+    text-align: center;
+}
+
+.rodape__logo {
+    display: inline;
+    margin: 20px;
+}
+
+.rodape__info {
+    color: $cor-cinza_escuro;
+    width: 100%;
+    margin: 0;
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

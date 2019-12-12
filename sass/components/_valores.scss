@@ -1,0 +1,23 @@
+/* sessao valores */ 
+
+.valores {
+    background-image: url(../img/achievement-adult-agreement.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: $cor-branca;
+}
+
+.valores p {
+    font-size: 28px;
+    line-height: 1.5;
+    padding: 40px 35px;
+    color: $cor-branca;
+}
+
+@media only screen and (min-width: 800px) {
+    
+    .valores p {
+        padding: 80px;
+    }
+}

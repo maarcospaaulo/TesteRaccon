@@ -1,0 +1,71 @@
+.cabecalho {
+    background-image: url(../img/ballpen-blur-close-up.jpg);
+    background-position: center;
+    background-size: cover;
+    color: $cor-branca;
+    text-align: center;
+}
+
+.frente--escurecer {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.95));
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+
+.cabecalho h1 {
+    padding-top: 140px;
+    margin-top: 0;
+}
+
+.cabecalho p {
+    padding-bottom: 50px;
+    font-size: 22px;
+    color: $cor-branca;
+}
+
+.cabecalho button {
+    border: none;
+    color: $cor-branca;
+    background-color: $cor-button;
+    padding: 10px 15px;
+    width: auto;
+    height: auto;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.cabecalho img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 200px;
+    padding-bottom: 30px;
+    max-width: 120px;
+    width: auto;
+    height: auto;
+}
+
+@media only screen and (min-width: 800px) {
+    
+    .cabecalho h1 {
+        font-size: 50px;
+        text-align: left;
+        margin-left: 100px;
+    }
+
+    .cabecalho p {
+        text-align: left;
+        margin-left: 100px;
+    }
+
+    .cabecalho button {
+        font-size: 20px;
+        display: block;
+        margin-left: 100px;
+    }
+
+    .cabecalho img {
+        margin-right: 100px;
+    }
+}

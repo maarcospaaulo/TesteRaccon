@@ -1,0 +1,51 @@
+/* sessao formulario */
+
+.form {
+    padding: 15px 20px 50px 20px;
+}
+
+.formulario{
+    background-color: $cor-cinza;
+    padding: 25px 15px 25px 15px;
+    /*box-shadow: 1px 2px 5px #9c9696;*/
+}
+
+.formulario__grupo{
+    margin-bottom: 20px;
+}
+
+.formulario__label{
+    color: $cor-cinza_escuro;
+}
+
+.formulario__campo{
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 5px;
+    margin-top: 5px;
+}
+
+.formulario__botao{
+    border: none;
+    color: $cor-branca;
+    background-color: $cor-button;
+    padding: 10px 15px;
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+
+@media only screen and (min-width: 800px) {
+    
+    .form {
+        padding: 15px 35% 50px 35%;
+    }
+
+    .form p {
+        padding: 10px;
+    }
+}

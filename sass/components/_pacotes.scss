@@ -1,0 +1,41 @@
+/* sessao pacotes */
+
+.pacotes {
+    text-align: center;
+    padding: 0 20px;
+}
+
+.pacotes .sessao-titulo {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.pacotes__item {
+    border: 2px solid $cor-cinza;
+    margin: 0;
+    padding: 15px 20px;
+}
+
+.pacotes__item h2 {
+    color: $cor-pacotes;
+    font-size: 18px;
+}
+
+@media only screen and (min-width: 800px) {
+
+    .pacotes {
+        padding: 0;
+        margin: 40px;
+        text-align: center;
+    }
+
+    .pacotes__artigos {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
+
+    .pacotes__item {
+        margin: 0;
+        padding: 20px;
+    }
+}

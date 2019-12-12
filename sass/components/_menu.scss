@@ -1,0 +1,118 @@
+.menu {
+    width: 100%;
+}
+
+.menu ul {
+    list-style: none;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li {
+    width: 120px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 50px;
+}
+
+.menu a {
+    padding: 5px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background-color: $cor-principal;
+    color: #fff;
+}
+
+.menu img {
+    margin-left: 80px;
+    margin-top: 12px;
+    max-width: 120px;
+    width: auto;
+    height: auto;
+}
+
+/* submenu oculto */
+.menu ul ul {
+    position: absolute;
+    visibility: hidden;
+}
+
+/* ao passar o mouse no item do menu, abre o submenu (fica visivel)*/
+.menu ul li:hover ul {
+    visibility: visible;
+}
+
+/* ao passar o mouse no link muda cor*/
+.menu a:hover {
+    background-color: $cor-menu_escuro;
+    color: #fff;
+}
+
+.menu ul ul li {
+    float: none;
+    border-bottom: solid 1px #fff;
+    margin: 0;
+}
+.menu ul ul li a {
+    background-color: $cor-button;
+    color: #fff;
+}
+
+/* botao menu responsivo */
+label[for="btn_menu"] {
+    padding: 5px;
+    background-color: $cor-principal;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+}
+
+#btn_menu {
+    display: none;
+}
+
+label[for="btn_menu"] {
+    display: none;
+}
+
+@media(max-width: 800px) {
+    label[for="btn_menu"] {
+        display: block;
+    }
+
+    #btn_menu:checked ~ .menu {
+        margin-left: 0;
+    }
+
+    .menu {
+        margin-left: -100%;
+        transition: all .5s;
+    }
+
+    .menu ul li {
+        width: 100%;
+        float: none;
+        margin-top: 0;
+    }
+
+    .menu ul ul {
+        position: static;
+        overflow: hidden;
+        max-height: 0;
+        transition: all .5s;
+    }
+
+    .menu ul li:hover ul {
+        height: auto;
+        max-height: 300px;
+    }
+
+    .menu img {
+        display: none;
+    }
+}

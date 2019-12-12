@@ -1,0 +1,104 @@
+/* Sessao Regras */
+
+.regras {
+    padding: 0 20px;
+}
+
+.regras__item {
+    border-bottom: 3px solid $cor-cinza;
+    padding: 20px 0;
+}
+
+.regras__item1 h2 {
+    color: $cor-limao; 
+}
+.regras__item1 button {
+    border-color: $cor-limao;
+    color: $cor-limao; 
+}
+.regras__item1 .circulo {
+    background-color: $cor-limao;
+}
+
+.regras__item2 h2 {
+    color: $cor-button;
+}
+.regras__item2 button {
+    border-color: $cor-button;
+    color: $cor-button;
+}
+.regras__item2 .circulo {
+    background-color: $cor-button;
+}
+
+.regras__item3 h2 {
+    color: $cor-amarelo;
+}
+.regras__item3 button {
+    border-color: $cor-amarelo;
+    color: $cor-amarelo;
+}
+.regras__item3 .circulo {
+    background-color: $cor-amarelo;
+}
+
+
+.regras button {
+    height: 35px;
+    width: 120px;
+    background-color: $cor-branca;
+    padding: 8px;
+    border: solid 2px;
+}
+
+.circulo {
+    border-radius: 100%;
+    width: 90px;
+    height: 90px;
+    overflow: hidden;
+    position: relative;
+    float: right;
+    margin: 50px 10px 20px 25px;
+}
+
+.circulo img {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    top:50%;
+    left:50%;
+    margin-top:-22px;
+    margin-left:-23px;
+}
+@media only screen and (min-width: 800px) {
+
+    .regras {
+        padding: 0;
+        margin: 40px;
+        text-align: center;
+    }
+
+    .regras__artigos {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+
+    .regras__item {
+        margin: 15px 20px;
+        border: 0;
+    }
+
+    .circulo {
+        float: none;
+        margin: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+/*se tela menor que 400px */
+@media only screen and (max-width: 400px) {
+
+    .circulo {
+        margin: 100px 10px 30px 25px;
+    }
+}

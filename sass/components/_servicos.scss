@@ -1,0 +1,146 @@
+/* Sessão Servicos */
+
+.servicos {
+    padding: 5px 20px 50px 20px;
+    margin: 0;
+}
+
+#servicos__desktop {
+    display: none;
+}
+
+.servicos p {
+    text-align: center;
+}
+
+p {
+    color: $cor-cinza_escuro;
+    line-height: 25px;
+}
+
+.sessao-titulo {
+    color: $cor-principal;
+    margin: 0;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.servicos__artigos {
+    color: $cor-branca;
+}
+
+.servicos__item {
+    margin: 15px 0;
+}
+
+.servicos__item img {
+    float: left;
+    margin-top: 35px;
+    margin-bottom: 25px;
+    padding: 15px;
+}
+
+.servicos__item p {
+    color: $cor-branca;
+    text-align: left;
+    padding: 10px 10px 35px 10px;
+    margin: 0;
+}
+
+.servicos__item h2 {
+    margin: 0;
+    padding-top: 20px;
+    text-align: left;
+}
+
+.servicos__item1 {
+    background-color:$cor-servico1;
+}
+
+.servicos__item2 {
+    background-color:$cor-servico2;
+}
+
+.servicos__item3 {
+    background-color:$cor-servico3;
+}
+
+.servicos__item4 {
+    background-color:$cor-servico4;
+}
+
+.servicos__item5 {
+    background-color:$cor-servico5;
+}
+
+.servicos__item6 {
+    background-color:$cor-servico6;
+}
+
+.servicos__item7 {
+    background-color:$cor-servico7;
+}
+
+.servicos__item8 {
+    background-color:$cor-servico8;
+}
+
+.servicos__item9 {
+    background-color:$cor-servico9;
+}
+
+.servicos__item10 {
+    background-color:$cor-servico10;
+}
+
+@media only screen and (min-width: 800px) {
+    
+    .sessao-titulo {
+        font-size: 36px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .servicos__item img {
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .servicos__item img {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+
+    .servicos {
+        padding: 0;
+        margin: 40px;
+    }
+
+    .servicos__artigos {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .servicos__item {
+        margin: 15px 20px;
+    }
+
+    .servicos__item img {
+        margin-top: 50px;
+    }
+
+    /* exibe as 4 caixas a mais para desktop */
+    #servicos__desktop {
+        display: grid;
+    }
+}
+
+@media only screen and (min-width: 940px) {
+    .servicos__item img {
+        margin-top: 25px;
+    }
+}
